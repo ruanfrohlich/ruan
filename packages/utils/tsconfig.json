@@ -1,0 +1,3 @@
+{
+  "extends": "@ruan/tsconfig-commons/base.json"
+}

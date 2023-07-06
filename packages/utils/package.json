@@ -1,0 +1,14 @@
+{
+  "name": "@ruan/utils",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ruan Frohlich",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint './**/*.{ts,tsx}'"
+  },
+  "devDependencies": {
+    "@ruan/tsconfig-commons": "*",
+    "@ruan/eslint-commons": "*"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "@ruan/eslint-commons",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ruan Frohlich",
+  "license": "MIT",
+  "files": [
+    "base.js"
+  ],
+  "scripts": {
+    "lint": "echo 'Not implemented'"
+  },
+  "dependencies": {
+    "eslint-config-next": "^13.4.8",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^5.0.0-alpha.1",
+    "eslint-plugin-react": "^7.32.2"
+  }
+}

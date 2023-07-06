@@ -1,0 +1,22 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  padding: 10px 16px;
+  text-transform: uppercase;
+  transition: 250ms ease;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+
+  &-primary {
+    background-color: $primary-color;
+    color: white;
+
+    &:hover {
+      background-color: aqua;
+      color: $primary-color;
+    }
+  }
+}

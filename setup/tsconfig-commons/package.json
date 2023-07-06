@@ -1,0 +1,13 @@
+{
+  "name": "@ruan/tsconfig-commons",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ruan Frohlich",
+  "license": "MIT",
+  "files": [
+    "base.json"
+  ],
+  "scripts": {
+    "lint": "echo 'Not implemented'"
+  }
+}

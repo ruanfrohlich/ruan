@@ -1,0 +1,32 @@
+{
+    "private": true,
+    "workspaces": {
+        "packages": [
+            "packages/*",
+            "projects/*",
+            "setup/*"
+        ]
+    },
+    "dependencies": {
+        "@types/eslint": "^8.40.2",
+        "@types/node": "20.4.0",
+        "@types/react": "18.2.14",
+        "eslint": "^8.44.0",
+        "prettier": "^3.0.0",
+        "typescript": "5.1.6"
+    },
+    "scripts": {
+        "lint:all": "yarn workspaces run lint",
+        "next-site": "yarn workspace @ruan/next-site",
+        "dev:next-site": "yarn next-site dev",
+        "build:next-site": "yarn next-site build",
+        "start:next-site": "yarn next-site start",
+        "lint:next-site": "yarn next-site lint",
+        "design-system": "yarn workspace @ruan/design-system",
+        "next-sass": "yarn workspace @ruan/next-sass",
+        "dev:next-sass": "yarn next-sass dev",
+        "build:next-sass": "yarn next-sass build",
+        "start:next-sass": "yarn next-sass start",
+        "lint:next-sass": "yarn next-sass lint"
+    }
+}
