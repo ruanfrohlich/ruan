@@ -12,7 +12,7 @@ export default function Handler(req, res) {
   });
 
   const mailOptions = {
-    from: 'ruanfrohlih@gmail.com',
+    from: 'Ruan Frohlich <ruanfrohlich@gmail.com>',
     to: `ruanp@gazetadopovo.com.br`,
     subject: 'NOVO CADASTRO DE DOADOR',
     html: `
