@@ -1,0 +1,7 @@
+{
+  "name": "@ruan/sqlite-lab",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ruan Frohlich",
+  "license": "MIT"
+}
