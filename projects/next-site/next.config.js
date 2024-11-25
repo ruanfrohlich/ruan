@@ -1,7 +1,7 @@
 const withPlugins = require('next-compose-plugins');
 const withTM = require('next-transpile-modules')([
-    '@ruan/design-system',
-    '@ruan/utils'
+  '@ruan/design-system',
+  '@ruan/utils',
 ]);
 
 /**
